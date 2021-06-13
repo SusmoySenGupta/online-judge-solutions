@@ -1,5 +1,5 @@
 /* 
-	problem no: 1112A
+	problem no: 112A
 	problem name: Petya and Strings
 	problem link: https://codeforces.com/problemset/problem/112/A
 	author: Susmoy Sen Gupta
