@@ -4,7 +4,7 @@
 	problem link: https://codeforces.com/problemset/problem/59/A
 	author: Susmoy Sen Gupta
 	Status: __Solved__
-	Solved at: _Jun/17/2021 01:11_
+	Solved at: Jun/17/2021 01:11
 */
 #include<bits/stdc++.h>
 
