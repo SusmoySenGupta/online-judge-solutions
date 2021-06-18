@@ -3,8 +3,8 @@
 	problem name: Anton and Danik
 	problem link: https://codeforces.com/problemset/problem/734/A
 	author: Susmoy Sen Gupta
-	Status: ____
-	Solved at: __
+	Status: __Solved__
+	Solved at: Jun/18/2021 11:56
 */
 #include <iostream>
 
