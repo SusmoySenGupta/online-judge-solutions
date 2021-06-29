@@ -3,8 +3,8 @@
 	problem name: Playing Darts by Distance
 	problem link: https://www.urionlinejudge.com.br/judge/en/problems/view/3037
 	author: Susmoy Sen Gupta
-	Status: ____
-	Solved at: __
+	Status: __Solved__
+	Solved at: 6/29/21, 6:58:37 PM
 */
 
 #include <iostream>
