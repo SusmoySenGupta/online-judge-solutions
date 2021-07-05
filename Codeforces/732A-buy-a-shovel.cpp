@@ -4,16 +4,15 @@
 	github: github.com/SusmoySenGupta
 
 	Judge: Codeforces
-	problem no: 1475B
-	problem name: New Year's Number
-	problem link: https://codeforces.com/problemset/problem/1475/B
+	problem no: 732A-buy-a-shovel
+	problem name: Buy a Shovel
+	problem link: https://codeforces.com/problemset/problem/732/A
 
-	Status: ____
-	Solved at: __
+	Status: __Solved__
+	Solved at: Jul/06/2021 01:46
 */
 
 #include <iostream>
-#include <cstring>
 
 #define INF  (int)1e9
 #define EPS   1e-9
@@ -29,20 +28,17 @@ using namespace std;
 
 void solve()
 {
-	int t, n;
+	int k, r;
 	
-	scanf("%d", &t);
+	scanf("%d%d", &k, &r);
 	
-	while(t--)
+	for(int i = 1; ;i++)
 	{
-		scanf("%d", &n);
-
-		if(n < 2020)
-			printf("NO\n");
-		else if(n % 2020 == 0 || n % 2021 == 0 || (n-2021) % 2020 == 0)
-			printf("YES\n");
-		else
-			printf("NO\n");
+		if( (k * i - r) % 10 == 0 || (k * i) % 10 == 0 || k == r)
+		{
+			printf("%d\n", i);
+			break;
+		}
 	}
 }
 
@@ -52,3 +48,4 @@ int main()
 
     return 0;
 }
+
