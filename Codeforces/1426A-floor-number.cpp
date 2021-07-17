@@ -8,15 +8,15 @@
 	problem name: Floor Number
 	problem link: https://codeforces.com/problemset/problem/1426/A
 
-	Status: __UNSOLVED__
-	Solved at: __
+	Status: __Solved__
+	Solved at: Jul/17/2021 10:56
 */
 
 #include <iostream>
 #include <cmath>
 
-#define INF  (int)1e9
-#define EPS   1e-9
+#define INF (int)1e9
+#define EPS 1e-9
 #define MOD 1000000007ll
 #define PI 3.14159
 
@@ -27,23 +27,26 @@
 
 using namespace std;
 
+void solve()
+{
+    int n, x;
+
+    scanf("%d%d", &n, &x);
+
+    if(n < 3)
+        printf("1\n");
+    else
+        printf("%d\n", ((n-3)/x) + 2);
+}
+
 int main()
 {
-	int t, n, x, r;
-	
-	cin >> t;
-	
-	while(t--)
-	{
-		cin >> n >> x;
+    int t;
 
-		if(n <= 2)
-			cout << "1" << endl;
-		else
-			r = n % x;
-			r <= 2 ? cout << n / x << endl : cout << n / x + r << endl;
-	}
+    scanf("%d", &t);
+
+    while(t--)
+        solve();
 
     return 0;
 }
-
