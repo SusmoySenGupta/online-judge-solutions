@@ -8,8 +8,8 @@
 	problem name: Favorite Sequence
 	problem link: https://codeforces.com/problemset/problem/1462/A
 
-	Status: ____
-	Solved at: __
+	Status: __Solved__
+	Solved at: Jul/27/2021 20:58
 */
 
 #include <iostream>
