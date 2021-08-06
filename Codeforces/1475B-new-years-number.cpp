@@ -8,8 +8,8 @@
 	problem name: New Year's Number
 	problem link: https://codeforces.com/problemset/problem/1475/B
 
-	Status: ____
-	Solved at: __
+	Status: __Solved__
+	Solved at: Aug/06/2021 10:47
 */
 
 #include <iostream>
@@ -29,26 +29,26 @@ using namespace std;
 
 void solve()
 {
-	int t, n;
+	int n;
 	
-	scanf("%d", &t);
-	
-	while(t--)
-	{
-		scanf("%d", &n);
+	scanf("%d", &n);
 
-		if(n < 2020)
-			printf("NO\n");
-		else if(n % 2020 == 0 || n % 2021 == 0 || (n-2021) % 2020 == 0)
-			printf("YES\n");
-		else
-			printf("NO\n");
-	}
+    int y = n % 2020;
+    int x = (n-y)/2020 - y;
+
+    if(x >= 0 && (2020*x + 2021*y) == n)
+        printf("YES\n");
+    else    
+        printf("NO\n");
 }
 
 int main()
 {
-	solve();
+    int t;
+	
+    scanf("%d", &t);
+
+    while (t--) solve();
 
     return 0;
 }
