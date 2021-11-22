@@ -15,7 +15,7 @@
     Runtime: 120 ms, faster than 55.05% of C++ online submissions for Best Time to Buy and Sell Stock.
     Memory Usage: 93.4 MB, less than 52.39% of C++ online submissions for Best Time to Buy and Sell Stock.
 
-    // Kadane's algorithm
+    // Kadane's algorithm - O(N)
     Runtime: 128 ms, faster than 36.94% of C++ online submissions for Best Time to Buy and Sell Stock.
     Memory Usage: 93.4 MB, less than 13.49% of C++ online submissions for Best Time to Buy and Sell Stock.
 */
