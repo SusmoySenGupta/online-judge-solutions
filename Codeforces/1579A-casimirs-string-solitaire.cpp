@@ -46,7 +46,6 @@ void solve()
 
     if (countA - countB == 0)
         cout << "YES\n";
-
     else
         cout << "No\n";
 }
