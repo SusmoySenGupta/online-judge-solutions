@@ -13,6 +13,7 @@
 */
 
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
@@ -30,24 +31,7 @@ void solve()
 
     cin >> str;
 
-    int countA = 0, countB = 0, countC = 0;
-
-    for (auto c : str)
-    {
-        if (c == 'A')
-            countA++;
-        if (c == 'B')
-            countB++;
-        if (c == 'C')
-            countC++;
-    }
-
-    countB -= countC;
-
-    if (countA - countB == 0)
-        cout << "YES\n";
-    else
-        cout << "No\n";
+    cout << (count(str.begin(), str.end(), 'B') * 2 == str.size() ? "YES\n" : "NO\n");
 }
 
 int main()
